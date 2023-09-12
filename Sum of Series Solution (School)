@@ -1,0 +1,11 @@
+#Sum Of Series(School)
+#Write a program to find the sum of the given series 1+2+3+ . . . . . .(N terms) 
+
+
+class Solution {
+    // function to return sum of  1, 2, ... n
+    long seriesSum(int n) {
+        // code here
+         return ((long)n*((long)n+1))/2;
+    }
+}
